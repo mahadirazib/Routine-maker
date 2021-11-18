@@ -12,7 +12,7 @@ document.querySelector("button").addEventListener("click",()=>{
             if(i==0){
                 tableHtml = tableHtml + "<td> <textarea placeholder='Type' class='tableHeader' cols='15' rows='1'></textarea> </td>"
             }else{
-                tableHtml = tableHtml + "<td> <textarea placeholder='Type' class='tableBody' cols='15' rows='1'></textarea> </td>"
+                tableHtml = tableHtml + "<td> <textarea class='tableBody' cols='15' rows='1'></textarea> </td>"
             }
         }
         tableHtml = tableHtml + "</tr>"
