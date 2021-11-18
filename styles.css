@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(230, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Monoton', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway Dots', cursive; */
+    text-align: center;
+}
+h1{
+    font-family: 'Monoton', cursive;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgb(5, 61, 33);
+}
+
+div{
+    text-align: center;
+    margin: 30px auto;
+}
+
+textarea{
+    background-color: transparent;
+    resize: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: none;
+    display: block;
+    outline: none;
+}
+
+
+button{
+    background: #58B578;
+    background-image: -webkit-linear-gradient(top, #58B578, #0F762D);
+    background-image: -moz-linear-gradient(top, #58B578, #0F762D);
+    background-image: -ms-linear-gradient(top, #58B578, #0F762D);
+    background-image: -o-linear-gradient(top, #58B578, #0F762D);
+    background-image: -webkit-gradient(to bottom, #58B578, #0F762D);
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+ 
+button:hover {
+    background: #58B578;
+    background-image: -webkit-linear-gradient(top, #0F762D, #58B578);
+    background-image: -moz-linear-gradient(top, #0F762D, #58B578);
+    background-image: -ms-linear-gradient(top, #0F762D, #58B578);
+    background-image: -o-linear-gradient(top, #0F762D, #58B578);
+    background-image: -webkit-gradient(to bottom, #0F762D, #58B578);
+ }
+
+table{
+    border-collapse: collapse;
+    display: inline-block;
+    background-color: white;
+}
+
+.tableHeader{
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+tr:nth-child(1){
+    background-color: #343a36;
+    color: #fff;
+}
+
+.table{
+    margin: 0 auto;
+     
+}
+
+.textareaHeightIncrease{
+    width: auto;
+}
