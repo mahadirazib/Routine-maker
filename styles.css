@@ -19,6 +19,10 @@ div{
     margin: 30px auto;
 }
 
+input{
+    width: 50px;
+}
+
 textarea{
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
